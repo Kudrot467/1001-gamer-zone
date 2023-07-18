@@ -1,0 +1,50 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 40px 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-title h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.G{
+    color: #FF42A5;
+}
+.logo{
+    width: 4rem;
+    height: 2.0rem;
+    margin-right: 10px;
+   
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-des{
+    margin-right: 30px;
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.f{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px;
+}
+.f img{
+    width: 1.8rem;
+    height: 1.25rem;
+    margin-left: 10px;
+}

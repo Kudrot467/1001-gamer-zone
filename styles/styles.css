@@ -169,10 +169,16 @@ strong{
     font-size: 1.12rem;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
-    margin-bottom: 45px;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
 .funny-img-container{
     display: flex;
+    width: 100%;
+}
+.fig{
+    padding: 0px;
+    margin-left: 3px;
 }
 .overlay-content{
     position: relative;
@@ -306,10 +312,10 @@ i{
 }
 .last-one{
     color: rgba(255, 255, 255, 0.60);
-    text-align: center;
     font-size: 16px;
     font-weight: 500;
     margin-top: 25px;
+    margin-left: 550px;
 }
 @media screen and (max-width:562px)
 {

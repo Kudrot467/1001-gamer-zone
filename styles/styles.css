@@ -245,7 +245,7 @@ figcaption{
 /* footer design */
 .footer{
     background: #0B0223;
-    height: 630px;
+    height: 600px;
 }
 .f{
     justify-content: center;
@@ -294,4 +294,68 @@ i{
     font-size: 16px;
     font-weight: 500;
     margin-top: 25px;
+}
+@media screen and (max-width:562px)
+{
+    nav,.nav-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px;
+    }
+    .banner-container, .gamer, .funny-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-content{
+        padding-left: 0px ;
+    }
+    .banner-pic{
+        width: 70%;
+    }
+    .gamer-pic{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 100%;
+    }
+    .instant-content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .instant-heading{
+        line-height: normal;
+        width: 370px;
+    }
+    .play-instant{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px;
+        margin: 0px;
+    }
+    .instant-pic{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .talking-angle{
+        position: relative;
+        right: 200px;
+        left: 0px;
+    }
+    .instant-des{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .t-fig-container,.t-fig-container-2{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       padding-left: 0px;
+       margin-left: 0px;
+    }
+    .type{
+        height: 500px;
+    }
 }

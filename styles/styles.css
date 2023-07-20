@@ -462,6 +462,9 @@ i{
         padding-left: 0px;
        margin-left: 0px;
     }
+    .last-one{
+        margin-left: 200px;
+    }
     .footer{
         margin-top: 50px;
     }
